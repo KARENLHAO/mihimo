@@ -164,7 +164,7 @@ proxy-groups:
   - {
       name: OpenAi,
       type: select,
-      proxies: [美国节点, 手动切换],
+      proxies: [美国节点, 日本节点, 狮城节点, 韩国节点, 土耳其节点，英国节点],
       icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png,
     }
   - {
@@ -266,6 +266,9 @@ proxy-groups:
           台湾节点,
           美国节点,
           狮城节点,
+          英国节点,
+          韩国节点,
+          土耳其节点,
         ],
       icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png,
     }
@@ -323,6 +326,32 @@ proxy-groups:
       tolerance: 50,
       filter: "新|坡|SG|(?i)Singapore",
       icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png,
+    }
+    {
+      name: 韩国节点,
+      type: url-test,
+      include-all: true,
+      interval: 600,
+      tolerance: 50,
+      filter: "韩|KR|(?i)Korea",
+      icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+    }
+    {
+      name: 英国节点,
+      type: url-test,
+      include-all: true,
+      interval: 600,
+      tolerance: 50,
+      filter: "英|UK|(?i)UnitedKingdom|Britain",
+      icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/UK.png
+    }
+    {
+      name: 土耳其节点,
+      type: url-test,
+      include-all: true,
+      interval: 600,
+      tolerance: 50,
+      filter: "土耳其|TR|(?i)Turkey",
     }
 
 # 分流规则
