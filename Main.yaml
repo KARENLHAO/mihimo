@@ -1,7 +1,7 @@
 # url 里填写自己的订阅,名称不能重复
 proxy-providers:
   CornSS:
-    url: "https://14.103.133.120/api/v1/client/subscribe?token=40782b7507a6f09e5a7cd3e89eedd837"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -14,7 +14,7 @@ proxy-providers:
       additional-prefix: "[CornSS]"
 
   dogdog:
-    url: "https://vjucd3cY.doggygo.top:8443/api/v1/client/1ce3bd150d42eb5aece44ad9b8973005"
+    url: ""
     type: http
     interval: 86400
     health-check:
